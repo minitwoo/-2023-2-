@@ -36,3 +36,4 @@ data_df.columns = ['year_month', 'semiconductor', 'system_semiconductor' ]
 
 data_df.plot(x='year_month')
 plt.title('Semiconductor exports')
+plt.ylabel('a hundred million dollars')
