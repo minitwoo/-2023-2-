@@ -23,13 +23,13 @@ df
 df = df.T
 df
 
-data_df = df.loc[['년월', '반도체(억불)', '시스템_반도체(억불)']]
+data_df = df.loc[['년월', '반도체(억불)', '메모리(억불)', '시스템_반도체(억불)']]
 data_df
 
 data_df = data_df.T
 data_df
 
-data_df.columns = ['year_month', 'semiconductor', 'system_semiconductor' ]
+data_df.columns = ['year_month', 'semiconductor', 'memory_semiconductor', 'system_semiconductor' ]
 
 # Commented out IPython magic to ensure Python compatibility.
 # %matplotlib inline
