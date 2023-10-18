@@ -37,6 +37,6 @@ def customPct(pct):
     return('%.1f%%' % pct) if pct >= 5 else ' '
 
 plt.pie(data_df[0], autopct=customPct)
-plt.title('인공지능 제품 서비스의 응용 산업 분야')
+plt.title('인공지능 제품 서비스의 응용 산업 분야 \n (전체 1915개)')
 plt.legend(data_df.index, loc=(1.2, 0.25))
 plt.show()
